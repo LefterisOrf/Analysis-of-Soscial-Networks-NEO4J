@@ -1,6 +1,6 @@
 'AoSN_HW2' 
 
-DB constraints:
+DB constraints:  
   CREATE CONSTRAINT uniqueAuthor IF NOT EXISTS
   ON (n:Author)
   ASSERT n.name IS UNIQUE
